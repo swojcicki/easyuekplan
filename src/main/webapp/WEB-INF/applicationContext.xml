@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+  <bean id="applicationProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="location" value="classpath:application.properties"/>
+  </bean>
+
+  <bean id="config" factory-bean="jaxbConfig" factory-method="create"/>
+
+  <bean id="jaxbConfig" class="pl.krakow.uek.knp.easyuekplan.utils.EntityUrlBridge">
+    <constructor-arg index="0" value="http://easyuekplan.pl/config.xml"/>
+    <constructor-arg index="1" value="pl.krakow.uek.knp.easyuekplan.xml.config.Config"/>
+  </bean>
+
+  <bean id="simpleDateFormat" class="java.text.SimpleDateFormat">
+    <constructor-arg value="yyyy-MM-dd HH:mm"/>
+  </bean>
+
+  <import resource="applicationContext-services.xml"/>
+
+  <import resource="applicationContext-security.xml"/>
+
+  <import resource="applicationContext-jpa.xml"/>
+
+</beans>

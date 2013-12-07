@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/task
+           http://www.springframework.org/schema/task/spring-task.xsd">
+
+  <bean id="teacherService" class="pl.krakow.uek.knp.easyuekplan.services.TeacherService">
+    <property name="config" ref="config"/>
+  </bean>
+
+  <bean id="groupService" class="pl.krakow.uek.knp.easyuekplan.services.GroupService">
+    <property name="config" ref="config"/>
+  </bean>
+
+  <bean id="ownService" class="pl.krakow.uek.knp.easyuekplan.services.OwnService">
+    <property name="gs" ref="groupService"/>
+    <property name="expireDays" value="14"/>
+  </bean>
+
+  <bean id="userService" class="pl.krakow.uek.knp.easyuekplan.services.UserService">
+  </bean>
+
+  <task:scheduled-tasks scheduler="taskScheduler">
+    <!--every day at 3am-->
+    <task:scheduled ref="ownService" method="deleteExpired" cron="0 0 3 * * *"/>
+    <!--<task:scheduled ref="ownService" method="deleteExpired" cron="*/10 * * * * *"/>-->
+  </task:scheduled-tasks>
+
+  <task:scheduler id="taskScheduler"/>
+
+</beans>

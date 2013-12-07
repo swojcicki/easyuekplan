@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="plan-zajec">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="okres" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="zajecia" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="typ"/>
+      <xs:attribute type="xs:short" name="id"/>
+      <xs:attribute type="xs:short" name="idcel"/>
+      <xs:attribute type="xs:string" name="nazwa"/>
+      <xs:attribute type="xs:date" name="od"/>
+      <xs:attribute type="xs:date" name="do"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="grupa" type="xs:string"/>
+  <xs:element name="do-godz" type="xs:string"/>
+  <xs:element name="termin" type="xs:date"/>
+  <xs:element name="od-godz" type="xs:string"/>
+  <xs:element name="okres">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:date" name="od" use="optional"/>
+          <xs:attribute type="xs:date" name="do" use="optional"/>
+          <xs:attribute type="xs:string" name="nazwa" use="optional"/>
+          <xs:attribute type="xs:string" name="wybrany" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="uwagi" type="xs:string"/>
+  <xs:element name="sala" type="xs:string"/>
+  <xs:element name="typ" type="xs:string"/>
+  <xs:element name="przedmiot" type="xs:string"/>
+  <xs:element name="zajecia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="termin"/>
+        <xs:element ref="dzien"/>
+        <xs:element ref="od-godz"/>
+        <xs:element ref="do-godz"/>
+        <xs:element ref="przedmiot"/>
+        <xs:element ref="typ"/>
+        <xs:element ref="sala"/>
+        <xs:element ref="grupa"/>
+        <xs:element ref="uwagi" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dzien" type="xs:string"/>
+</xs:schema>

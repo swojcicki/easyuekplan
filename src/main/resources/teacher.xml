@@ -1,0 +1,817 @@
+<!DOCTYPE plan-zajec [
+  <!ELEMENT plan-zajec (okres|zajecia)*>
+  <!ATTLIST plan-zajec
+    typ CDATA #REQUIRED
+    id CDATA #REQUIRED
+    idcel CDATA #REQUIRED
+    nazwa CDATA #REQUIRED
+    od CDATA #REQUIRED
+    do CDATA #REQUIRED>
+  <!ELEMENT okres (#PCDATA)>
+  <!ATTLIST okres
+    do CDATA #REQUIRED
+    nazwa CDATA #REQUIRED
+    od CDATA #REQUIRED
+    wybrany CDATA #IMPLIED>
+  <!ELEMENT zajecia (termin|dzien|od-godz|do-godz|przedmiot|typ|sala|grupa|uwagi)*>
+  <!ELEMENT termin (#PCDATA)>
+  <!ELEMENT dzien (#PCDATA)>
+  <!ELEMENT od-godz (#PCDATA)>
+  <!ELEMENT do-godz (#PCDATA)>
+  <!ELEMENT przedmiot (#PCDATA)>
+  <!ELEMENT typ (#PCDATA)>
+  <!ELEMENT sala (#PCDATA)>
+  <!ELEMENT grupa (#PCDATA)>
+  <!ELEMENT uwagi (#PCDATA)>
+  ]>
+<plan-zajec typ="N" id="11732" idcel="1256" nazwa="Markiewicz Piotr, dr" od="2012-02-12" do="2012-09-28">
+  <okres od="2012-05-17" do="2012-05-31" nazwa="2012-05-17 do 2012-05-31"/>
+  <okres od="2012-02-12" do="2012-09-28" nazwa="2012-02-12 do 2012-09-28" wybrany="tak"/>
+  <zajecia>
+    <termin>2012-02-20</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-20</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-21</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.E sala G</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-25</termin>
+    <dzien>Sb</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.D sala 4</sala>
+    <grupa>KrZZEk2211Zd</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-27</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-27</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-28</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.E sala G</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-02-29</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>21:25</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-05</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-05</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-06</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.E sala G</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-09</termin>
+    <dzien>Pt</dzien>
+    <od-godz>15:40</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>wykład</typ>
+    <sala>Paw.E sala J</sala>
+    <grupa>KrZZSm1211, KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-12</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-12</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-13</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-14</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-17</termin>
+    <dzien>Sb</dzien>
+    <od-godz>08:45</od-godz>
+    <do-godz>13:50</do-godz>
+    <przedmiot>Problem przywództwa w zarządzaniu projektami</przedmiot>
+    <typ>Studia podyplomowe</typ>
+    <sala/>
+    <grupa>KSB Zarządzanie projektami B</grupa>
+    <uwagi>zajęcia wyjazdowe</uwagi>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-18</termin>
+    <dzien>Nd</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 106</sala>
+    <grupa>KrZZEk2211Zd</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-19</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-19</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-20</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-21</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-23</termin>
+    <dzien>Pt</dzien>
+    <od-godz>15:40</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>wykład</typ>
+    <sala>Bibl. 442</sala>
+    <grupa>KrZZSm1211, KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-24</termin>
+    <dzien>Sb</dzien>
+    <od-godz>08:45</od-godz>
+    <do-godz>13:50</do-godz>
+    <przedmiot>Problem przywództwa w zarządzaniu projektami</przedmiot>
+    <typ>Studia podyplomowe</typ>
+    <sala>Paw.U sala K</sala>
+    <grupa>KSB Zarządzanie projektami A</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-25</termin>
+    <dzien>Nd</dzien>
+    <od-godz>14:00</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>wykład</typ>
+    <sala>Paw.C sala B</sala>
+    <grupa>KrZZSm1211, KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-26</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-26</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-03-27</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-02</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-02</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-03</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-11</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-13</termin>
+    <dzien>Pt</dzien>
+    <od-godz>15:40</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.S sala 6</sala>
+    <grupa>KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-13</termin>
+    <dzien>Pt</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>20:35</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.U sala N</sala>
+    <grupa>KrZZSm1211</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-14</termin>
+    <dzien>Sb</dzien>
+    <od-godz>08:45</od-godz>
+    <do-godz>13:50</do-godz>
+    <przedmiot>Wprowadzenie do zarządzania projektami</przedmiot>
+    <typ>Studia podyplomowe</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KSB Zarządzanie projektami D</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-14</termin>
+    <dzien>Sb</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Bud.gł. 1</sala>
+    <grupa>KrZZEk2211Zd</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-16</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-16</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-17</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-21</termin>
+    <dzien>Sb</dzien>
+    <od-godz>08:45</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Przywództwo</przedmiot>
+    <typ>Studia podyplomowe</typ>
+    <sala>Bibl. 440</sala>
+    <grupa>KSB Psychologia w biznesie B</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-23</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-23</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-24</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-25</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-30</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-04-30</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-07</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-07</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-08</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-09</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-11</termin>
+    <dzien>Pt</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>20:35</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.C sala F</sala>
+    <grupa>KrZZEk2211Zd</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-14</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-14</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-15</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-15</termin>
+    <dzien>Wt</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>Przeniesienie zajęć</typ>
+    <sala/>
+    <grupa>KrDZSm3002Pk</grupa>
+    <uwagi>Zajęcia przeniesione na 31 V</uwagi>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>Przeniesienie zajęć</typ>
+    <sala/>
+    <grupa>KrDZSm3001Pk</grupa>
+    <uwagi>Zajęcia przeniesione na 31 V</uwagi>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-22</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>Przeniesienie zajęć</typ>
+    <sala/>
+    <grupa>KrDUMg2001Gs</grupa>
+    <uwagi>Zajęcia przeniesione na 15 V</uwagi>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-29</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.U sala L</sala>
+    <grupa>KrZZSm3111Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-31</termin>
+    <dzien>Cz</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Bud.gł. 1</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-31</termin>
+    <dzien>Cz</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Bud.gł. 1</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-01</termin>
+    <dzien>Pt</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>20:35</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Rakowicka 16 sala 12</sala>
+    <grupa>KrZZEk2211Zd</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-02</termin>
+    <dzien>Sb</dzien>
+    <od-godz>15:40</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.S sala 5</sala>
+    <grupa>KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-02</termin>
+    <dzien>Sb</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>20:35</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.B 153</sala>
+    <grupa>KrZZSm1211</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-04</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3002Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-04</termin>
+    <dzien>Pn</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Zarządzanie projektami</przedmiot>
+    <typ>konwersatorium</typ>
+    <sala>Paw.F 615</sala>
+    <grupa>KrDZSm3001Pk</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-05</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-10</termin>
+    <dzien>Nd</dzien>
+    <od-godz>14:00</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.B 054</sala>
+    <grupa>KrZZSm1212</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-10</termin>
+    <dzien>Nd</dzien>
+    <od-godz>16:30</od-godz>
+    <do-godz>18:55</do-godz>
+    <przedmiot>Podstawy zarządzania</przedmiot>
+    <typ>ćwiczenia</typ>
+    <sala>Paw.B 153</sala>
+    <grupa>KrZZSm1211</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-06-12</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>
+      Przywództwo i style kierowania w korporacjach miedzynarodowych
+    </przedmiot>
+    <typ>wykład do wyboru</typ>
+    <sala>Paw.U sala S (prac.rys. tech.)</sala>
+    <grupa>KrDUMg2001Gs</grupa>
+  </zajecia>
+  <zajecia>
+    <termin>2012-07-06</termin>
+    <dzien>Pt</dzien>
+    <od-godz>16:30</od-godz>
+    <do-godz>20:35</do-godz>
+    <przedmiot>Style kierowania</przedmiot>
+    <typ>Studia podyplomowe</typ>
+    <sala/>
+    <grupa>KSB Psychologia w biznesie C</grupa>
+    <uwagi>Sala 425 budynek Biblioteki, IV piętro</uwagi>
+  </zajecia>
+</plan-zajec>

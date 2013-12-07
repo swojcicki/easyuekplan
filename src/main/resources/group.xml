@@ -1,0 +1,410 @@
+<!DOCTYPE plan-zajec [
+  <!ELEMENT plan-zajec (okres|zajecia)*>
+  <!ATTLIST plan-zajec
+    typ CDATA #REQUIRED
+    id CDATA #REQUIRED
+    nazwa CDATA #REQUIRED
+    od CDATA #REQUIRED
+    do CDATA #REQUIRED>
+  <!ELEMENT okres (#PCDATA)>
+  <!ATTLIST okres
+    do CDATA #REQUIRED
+    nazwa CDATA #REQUIRED
+    od CDATA #REQUIRED
+    wybrany CDATA #IMPLIED>
+  <!ELEMENT zajecia (termin|dzien|od-godz|do-godz|przedmiot|typ|nauczyciel|sala)*>
+  <!ELEMENT termin (#PCDATA)>
+  <!ELEMENT dzien (#PCDATA)>
+  <!ELEMENT od-godz (#PCDATA)>
+  <!ELEMENT do-godz (#PCDATA)>
+  <!ELEMENT przedmiot (#PCDATA)>
+  <!ELEMENT typ (#PCDATA)>
+  <!ELEMENT nauczyciel (#PCDATA)>
+  <!ATTLIST nauczyciel
+    moodle CDATA #IMPLIED>
+  <!ELEMENT sala (#PCDATA)>
+  ]>
+<plan-zajec typ="G" id="28341" nazwa="KrDZIe2011" od="2012-05-17" do="2012-05-31">
+  <okres od="2012-05-17" do="2012-05-31" nazwa="2012-05-17 do 2012-05-31" wybrany="tak"/>
+  <okres od="2012-02-12" do="2012-09-28" nazwa="2012-02-12 do 2012-09-28"/>
+  <zajecia>
+    <termin>2012-05-17</termin>
+    <dzien>Cz</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-17</termin>
+    <dzien>Cz</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-17</termin>
+    <dzien>Cz</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-18</termin>
+    <dzien>Pt</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Projektowanie systemów informatycznych</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="2206">dr Agnieszka Zając</nauczyciel>
+    <sala>Paw.A 115 lab. XP, Office03</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>14:00</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Matematyka finansowa i ubezpieczeniowa</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="2287">mgr Danuta Guzik</nauczyciel>
+    <sala>Paw.A 301b</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>16:30</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Bazy danych</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1218">dr Dariusz Put</nauczyciel>
+    <sala>Bibl. 440</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-21</termin>
+    <dzien>Pn</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Projektowanie systemów informatycznych</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1222">prof. dr hab. Ryszard Tadeusiewicz</nauczyciel>
+    <sala>Bibl. 440</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-22</termin>
+    <dzien>Wt</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Urządzenia techniki komputerowej</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1213">dr Jan Madej</nauczyciel>
+    <sala>Paw.A 115 lab. XP, Office03</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-22</termin>
+    <dzien>Wt</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-22</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Statystyka matematyczna</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1101">dr Sławomir Śmiech</nauczyciel>
+    <sala>Paw.A 301b</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-22</termin>
+    <dzien>Wt</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>15:35</do-godz>
+    <przedmiot>Bazy danych</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1218">dr Dariusz Put</nauczyciel>
+    <sala>Paw.A 121 lab. Vista,Office07</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Statystyka matematyczna</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1089">dr Alina Karska</nauczyciel>
+    <sala>Paw.F 715</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>13:50</do-godz>
+    <przedmiot>Matematyka finansowa i ubezpieczeniowa</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="908">dr Maria Kosiorowska</nauczyciel>
+    <sala>Paw.S sala 3</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Projektowanie systemów informatycznych</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="2206">dr Agnieszka Zając</nauczyciel>
+    <sala>Paw.A 117 lab. Vista,Office07</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-23</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-24</termin>
+    <dzien>Cz</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-24</termin>
+    <dzien>Cz</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-24</termin>
+    <dzien>Cz</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-25</termin>
+    <dzien>Pt</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>14:00</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Matematyka finansowa i ubezpieczeniowa</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="2287">mgr Danuta Guzik</nauczyciel>
+    <sala>Paw.A 301b</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>16:30</od-godz>
+    <do-godz>18:05</do-godz>
+    <przedmiot>Bazy danych</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1218">dr Dariusz Put</nauczyciel>
+    <sala>Bibl. 440</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-28</termin>
+    <dzien>Pn</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Projektowanie systemów informatycznych</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1222">prof. dr hab. Ryszard Tadeusiewicz</nauczyciel>
+    <sala>Bibl. 440</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-29</termin>
+    <dzien>Wt</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Urządzenia techniki komputerowej</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1213">dr Jan Madej</nauczyciel>
+    <sala>Paw.A 115 lab. XP, Office03</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-29</termin>
+    <dzien>Wt</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-29</termin>
+    <dzien>Wt</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Statystyka matematyczna</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1101">dr Sławomir Śmiech</nauczyciel>
+    <sala>Paw.A 301b</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-29</termin>
+    <dzien>Wt</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Bazy danych</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="1218">dr Dariusz Put</nauczyciel>
+    <sala>Paw.A 122 lab. XP, Office03</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>09:35</od-godz>
+    <do-godz>11:15</do-godz>
+    <przedmiot>Statystyka matematyczna</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="1089">dr Alina Karska</nauczyciel>
+    <sala>Paw.F 715</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>13:50</do-godz>
+    <przedmiot>Matematyka finansowa i ubezpieczeniowa</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="908">dr Maria Kosiorowska</nauczyciel>
+    <sala>Paw.S sala 3</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Projektowanie systemów informatycznych</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="2206">dr Agnieszka Zając</nauczyciel>
+    <sala>Paw.A 117 lab. Vista,Office07</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-30</termin>
+    <dzien>Śr</dzien>
+    <od-godz>18:10</od-godz>
+    <do-godz>19:45</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-31</termin>
+    <dzien>Cz</dzien>
+    <od-godz>11:20</od-godz>
+    <do-godz>13:00</do-godz>
+    <przedmiot>Język obcy</przedmiot>
+    <typ>lektorat</typ>
+    <nauczyciel>mgr Lektorat Lektorat</nauczyciel>
+    <sala/>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-31</termin>
+    <dzien>Cz</dzien>
+    <od-godz>13:05</od-godz>
+    <do-godz>14:45</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>wykład</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+  <zajecia>
+    <termin>2012-05-31</termin>
+    <dzien>Cz</dzien>
+    <od-godz>14:50</od-godz>
+    <do-godz>16:25</do-godz>
+    <przedmiot>Rachunkowość</przedmiot>
+    <typ>ćwiczenia</typ>
+    <nauczyciel moodle="832">dr Jerzy Kuchmacz</nauczyciel>
+    <sala>Paw.U sala P</sala>
+  </zajecia>
+</plan-zajec>

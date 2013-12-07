@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/security
+           http://www.springframework.org/schema/security/spring-security-3.0.4.xsd">
+
+  <bean id="forbidden" class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint"/>
+
+  <bean id="unauthorized"
+        class="org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler"/>
+
+  <bean id="success" class="pl.krakow.uek.knp.easyuekplan.utils.RestSuccess"/>
+
+  <bean id="custom" class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
+    <property name="authenticationManager" ref="manager"/>
+    <property name="authenticationSuccessHandler" ref="success"/>
+    <property name="authenticationFailureHandler" ref="unauthorized"/>
+  </bean>
+
+  <security:http auto-config="false" use-expressions="true" entry-point-ref="forbidden">
+    <security:custom-filter ref="custom" position="FORM_LOGIN_FILTER"/>
+    <security:intercept-url pattern="/**" filters="none"/>
+    <security:intercept-url pattern="/own/**" access="isAuthenticated()"/>
+    <security:logout success-handler-ref="success"/>
+  </security:http>
+
+  <security:authentication-manager alias="manager">
+    <security:authentication-provider user-service-ref="userService">
+      <security:password-encoder hash="sha"/>
+    </security:authentication-provider>
+  </security:authentication-manager>
+
+</beans>

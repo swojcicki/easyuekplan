@@ -1,0 +1,10 @@
+<!DOCTYPE config [
+  <!ELEMENT config (group-url|teacher-url)*>
+  <!ELEMENT group-url (#PCDATA)>
+  <!ELEMENT teacher-url (#PCDATA)>
+  ]>
+<config>
+  <group-url>http://planzajec.uek.krakow.pl/index.php?typ=G&amp;okres=2&amp;id={0}&amp;xml</group-url>
+  <teacher-url>http://planzajec.uek.krakow.pl/index.php?typ=G&amp;okres=2&amp;id={0}&amp;xml</teacher-url>
+</config>
+  <!--knp.uek.krakow.pl/easyuekplan/config.properties-->
